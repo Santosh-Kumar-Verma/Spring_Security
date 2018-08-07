@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE tiles-definitions PUBLIC    
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="mainLayout" template="/jsp/layout/main.jsp">
+        <put-attribute name="header" value="/jsp/layout/header.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/jsp/layout/footer.jsp" />
+    </definition>
+    <definition name="userProfile" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/userProfile.jsp" />
+    </definition>
+    <definition name="businessProfile" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/businessProfile.jsp" />
+    </definition>
+    <definition name="buildingSubmission" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/buildingSubmission.jsp" />
+    </definition>
+    <definition name="landSubmission" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/landSubmission.jsp" />
+    </definition>
+    <definition name="buildingRequistion" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/buildingRequistion.jsp" />
+    </definition>
+    <definition name="builderDashboard" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/builderDashboard.jsp" />
+    </definition>
+	 <definition name="builderDetailsViewDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/builderDetailsViewDetails.jsp" />
+    </definition>
+	 <definition name="builderPropertyDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/builderPropertyDetails.jsp" />
+    </definition>
+    <definition name="itCompanyDashboard" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/itCompanyDashboard.jsp" />
+    </definition>
+	
+	<definition name="staffDashboard" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/staffDashboard.jsp" />
+    </definition>
+    
+    <definition name="staffDashboardViewDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/staffDashboardViewDetails.jsp" />
+    </definition>
+    
+    <definition name="ceoInfraDashboard" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/ceoInfraDashboard.jsp" />
+    </definition>
+    
+    <definition name="ceoInfraDashboardViewDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/ceoInfraDashboardViewDetails.jsp" />
+    </definition>
+    
+    <definition name="ccitiDashboard" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/ccitiDashboard.jsp" />
+    </definition>
+    
+    <definition name="ccitiDashboardViewDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/ccitiDashboardViewDetails.jsp" />
+    </definition>
+    
+    <definition name="hmitDashboard" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/hmitDashboard.jsp" />
+    </definition>
+    
+    <definition name="hmitDashboardViewDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/hmitDashboardViewDetails.jsp" />
+    </definition>
+    
+    <definition name="technicalTeamDashboard" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/technicalTeamDashboard.jsp" />
+    </definition>
+    
+    <definition name="technicalTeamDashboardViewDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/technicalTeamDashboardViewDetails.jsp" />
+    </definition>
+    
+	<definition name="buildingRequistionOverViewDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/buildingRequistionOverViewDetails.jsp" />
+    </definition>
+	<definition name="itCompanyDashboardPropertyDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/itCompanyDashboardPropertyDetails.jsp" />
+    </definition>
+    <definition name="editBuildingViewDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/editBuildingViewDetails.jsp" />
+    </definition>
+	<definition name="ceoPromotionsDashboard" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/ceoPromotionsDashboard.jsp" />
+    </definition>
+	<definition name="ceoPromotionsDashboardViewDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/ceoPromotionsDashboardViewDetails.jsp" />
+    </definition>
+    <definition name="rentalGuaranteeIncentive" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/rentalGuaranteeIncentive.jsp" />
+    </definition>
+    <definition name="rentalSubsidyIncentive" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/rentalSubsidyIncentive.jsp" />
+    </definition>
+    <definition name="staffIncentiveDashboard" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/staffIncentiveDashboard.jsp" />
+    </definition>
+    <definition name="ceoInfraIncentiveDashboard" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/ceoInfraIncentiveDashboard.jsp" />
+    </definition>
+    <definition name="jointDirectorIncentiveDashboard" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/jointDirectorIncentiveDashboard.jsp" />
+    </definition>
+    <definition name="hmitIncentiveDashboard" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/hmitIncentiveDashboard.jsp" />
+    </definition>
+	<definition name="ceoPromotionsIncentiveDashboard" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/ceoPromotionsIncentiveDashboard.jsp" />
+    </definition>
+	 <definition name="rentalGuaranteeIncentive" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/rentalGuaranteeIncentive.jsp" />
+    </definition>
+    <definition name="incentive" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/incentive.jsp" />
+    </definition>
+    <definition name="incentiveTracking" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/incentiveTracking.jsp" />
+    </definition> 
+      <definition name="rentalSubsidyIncentiveDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/rentalSubsidyIncentiveDetails.jsp" />
+    </definition> 
+	<definition name="staffIncentiveDashboardDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/staffIncentiveDashboardDetails.jsp" />
+    </definition>
+    <definition name="ceoInfraIncentiveDashboardDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/ceoInfraIncentiveDashboardDetails.jsp" />
+    </definition>       
+	<definition name="ceoPromotionsIncentiveDashboardViewDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/ceoPromotionsIncentiveDashboardViewDetails.jsp" />
+    </definition>
+    <definition name="jointDirectorIncentiveDashboardDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/jointDirectorIncentiveDashboardDetails.jsp" />
+    </definition>
+    <definition name="hmitIncentiveDashboardViewDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/hmitIncentiveDashboardViewDetails.jsp" />
+    </definition>		
+    <definition name="editRentalSubsidyIncentiveDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/editRentalSubsidyIncentiveDetails.jsp" />
+    </definition>
+     <definition name="editRentalGuaranteeIncentiveDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/editRentalGuaranteeIncentiveDetails.jsp" />
+    </definition>
+     <definition name="rentalGuaranteeIncentiveDetails" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/rentalGuaranteeIncentiveDetails.jsp" />
+    </definition>  
+    <definition name="superAdminActivities" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/superAdminActivities.jsp" />
+    </definition>   
+    <definition name="applicationCompleteOverviewDtls" extends="mainLayout">
+        <put-attribute name="body" value="/jsp/applicationCompleteOverviewDtls.jsp" />
+    </definition>   
+     
+</tiles-definitions>
